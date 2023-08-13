@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100%;
+    width:100%;
+    overflow-x: none;
+    background-color: #d3ccd3;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+.navContainer{
+    width:100%;
+    /* background-color: rgba(151, 57, 240, 0.912); */
+    background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav
+{
+    width:100%;
+    overflow-x: none;
+}
+
+#navList{
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+#navLogo{
+    font-size: 2rem;
+    color: aliceblue;
+}
+a{text-decoration: none;
+    color: rgb(253, 254, 255);
+}
+#navItems{
+    display: flex;
+    gap: 40px;
+}
+.footerBox{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,0.9968779748227415) 0%, rgba(0,255,253,1) 100%);
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footerBox p{
+    color: azure;
+    font-size: 2rem;
+
+}
+.contentBox{
+    width:70%;
+    margin:auto;
+   
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding:3rem;
+    box-shadow: 3px 3px 30px black;
+}
+.item{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.rightBox img{
+    height: 250px;
+    border-radius: 80px;
+    transition: all 0.6s linear 0s;
+
+}
+.rightBox img:hover{
+    transform: scale(1.1);
+
+}
+
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox{
+    font-size: 1.7rem;
+}
+.recipeBox{
+    font-size: 1.4rem;
+}
